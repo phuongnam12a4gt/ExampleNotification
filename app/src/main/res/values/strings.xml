@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">demoNotification</string>
+    <string name="reply_label">ReplyLabel</string>
+    <string name="name_chanel">Channel1</string>
+    <string name="description_channel">This is Channel 1</string>
+    <string name="content_title_weather">Tin tức thời tiết hôm nay 7.8.2021</string>
+    <string name="content_text_weather">Tin tức thời tiết hôm nay 7.8.2021, Trung tâm Dự báo khí tượng thủy văn quốc gia, cho biết ngày hôm qua 6.8, các tỉnh Bắc bộ và Trung bộ có nắng nóng và nắng nóng gay gắt,với nhiệt độ cao nhất phổ biến 36 - 38 độ C</string>
+</resources>

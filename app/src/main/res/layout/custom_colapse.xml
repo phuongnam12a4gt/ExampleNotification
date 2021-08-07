@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_64"
+    android:background="@color/teal_200"
+    android:padding="@dimen/dp_10">
+
+    <ImageView
+        android:id="@+id/imageViewCustomNotification"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_stat_name" />
+
+    <LinearLayout
+        android:id="@+id/relativeLayoutCustomNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_toStartOf="@+id/textViewTime"
+        android:layout_toLeftOf="@+id/textViewTime"
+        android:layout_toEndOf="@+id/imageViewCustomNotification"
+        android:layout_toRightOf="@+id/imageViewCustomNotification"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiêu đề 1" />
+
+        <TextView
+            android:id="@+id/textViewContent"
+            style="@style/TextAppearance.Compat.Notification.Info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nội dung 1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewTime"
+        style="@style/TextAppearance.Compat.Notification.Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="12:23:34" />
+</RelativeLayout>

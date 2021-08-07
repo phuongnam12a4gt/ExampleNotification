@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonStartAlerActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StartActivity"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonShowNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Notification Basic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStartAlerActivity" />
+
+    <Button
+        android:id="@+id/buttonAddRelyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Rely Button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonShowNotification" />
+
+    <Button
+        android:id="@+id/buttonShowProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show ProgressBar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddRelyButton" />
+
+    <Button
+        android:id="@+id/buttonImportAcivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Important Activity"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonShowProgressBar" />
+
+    <Button
+        android:id="@+id/buttonSpecialActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SpecialActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonImportAcivity" />
+
+    <Button
+        android:id="@+id/buttonMediaActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MediaActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpecialActivity" />
+
+    <Button
+        android:id="@+id/buttonGroupNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GroupNotification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMediaActivity" />
+
+    <Button
+        android:id="@+id/buttonCustomNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CustomNotification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGroupNotification" />
+</androidx.constraintlayout.widget.ConstraintLayout>
